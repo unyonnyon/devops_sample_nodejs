@@ -9,7 +9,7 @@ job("NodeJS Job") {
         scm("H/5 * * * *")
     }
     wrappers {
-        nodejs("nodejs_v13")
+        nodejs("nodejs_v11")
     }
     steps {
         shell("npm install")
